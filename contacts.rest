@@ -1,0 +1,32 @@
+### Get All Contacts
+GET http://localhost:3000/contacts
+
+### Get Single Contact
+GET http://localhost:3000/contacts/PUT_ID_HERE
+
+### Create Contact
+POST http://localhost:3000/contacts
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john@example.com",
+  "favoriteColor": "Blue",
+  "birthday": "1990-01-01"
+}
+
+### Update Contact
+PUT http://localhost:3000/contacts/PUT_ID_HERE
+Content-Type: application/json
+
+{
+  "firstName": "Jane",
+  "lastName": "Doe",
+  "email": "jane@example.com",
+  "favoriteColor": "Purple",
+  "birthday": "1995-05-05"
+}
+
+### Delete Contact
+DELETE http://localhost:3000/contacts/PUT_ID_HERE
