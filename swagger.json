@@ -6,7 +6,7 @@
     "version": "1.0.0"
   },
   "host": "cse341-project1-1-mrql.onrender.com",
-  "basePath": "/contacts",
+  "basePath": "/",
   "tags": [
     {
       "name": "Contacts",
