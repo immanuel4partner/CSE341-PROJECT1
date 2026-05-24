@@ -5,16 +5,16 @@
     "description": "Contacts API Documentation for Contacts Project",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
-  "basePath": "/",
+  "host": "cse341-project1-1-mrql.onrender.com",
+  "basePath": "/contacts",
   "tags": [
     {
       "name": "Contacts",
-      "description": "Contacts management endpoints"
+      "description": "Contacts Management Endpoints"
     }
   ],
   "schemes": [
-    "http"
+    "https"
   ],
   "consumes": [
     "application/json"
@@ -35,7 +35,7 @@
     },
     "/contacts/": {
       "get": {
-        "description": "",
+        "description": "Get all contacts",
         "responses": {
           "200": {
             "description": "OK"
@@ -46,7 +46,7 @@
         }
       },
       "post": {
-        "description": "",
+        "description": "Create a new contact",
         "parameters": [
           {
             "name": "body",
@@ -88,7 +88,7 @@
     },
     "/contacts/{id}": {
       "get": {
-        "description": "",
+        "description": "Get a contact by ID",
         "parameters": [
           {
             "name": "id",
@@ -113,7 +113,7 @@
         }
       },
       "put": {
-        "description": "",
+        "description": "Update a contact by ID",
         "parameters": [
           {
             "name": "id",
@@ -162,7 +162,7 @@
         }
       },
       "delete": {
-        "description": "",
+        "description": "Delete a contact by ID",
         "parameters": [
           {
             "name": "id",

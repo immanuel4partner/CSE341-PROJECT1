@@ -6,14 +6,14 @@ const doc = {
     description: "Contacts API Documentation for Contacts Project",
     version: "1.0.0"
   },
-  host: "localhost:3000",
-  schemes: ["http"],
+  host: "cse341-project1-1-mrql.onrender.com",
+  schemes: ["https"],
   consumes: ["application/json"],
   produces: ["application/json"],
   tags: [
     {
       name: "Contacts",
-      description: "Contacts management endpoints"
+      description: "Contacts Management Endpoints"
     }
   ]
 };
